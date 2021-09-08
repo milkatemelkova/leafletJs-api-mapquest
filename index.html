@@ -22,6 +22,16 @@
     <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=TKkwJ96ssoRXcCi1j68EgjLQi3HAZZyV"></script>
     <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-routing.js?key=TKkwJ96ssoRXcCi1j68EgjLQi3HAZZyV">
     </script>
+    <script>
+        function activatePLacesSearch() {
+            var input = document.getElementById('beginning');
+            var autocomplete = new google.maps.places.Autocomplete(input);
+        }
+    </script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5FlPWSEIkhz-byF93YJJQz7WdxZGayyA&libraries=places&callback=activatePLacesSearch">
+    </script>
+
     <script src="app.js"></script>
 </body>
 
