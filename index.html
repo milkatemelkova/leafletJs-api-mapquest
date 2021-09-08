@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <h1>Check your next track:</h1>
+        <div id='map'></div>
+        <div class="queryTo">
+            <form id="inputplace">
+                <input type="text" name="beginning" class="block" id="beginning"
+                    placeholder="Type your entry location" />
+                <input type="text" name="final" class="block" id="final" placeholder="Type your end location" />
+                <button type="submit">Show Shortest Route</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=TKkwJ96ssoRXcCi1j68EgjLQi3HAZZyV"></script>
+    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-routing.js?key=TKkwJ96ssoRXcCi1j68EgjLQi3HAZZyV">
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

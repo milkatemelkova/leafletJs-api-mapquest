@@ -1,0 +1,61 @@
+#map {
+    height: 60vh;
+    width: 100%;
+    border: 5px solid navy;
+    border-radius: 10px;
+    position: relative;
+}
+
+#wrap {
+    margin: 10%;
+    width: 80%;
+
+}
+
+body {
+    border: 0;
+    margin: 0;
+}
+
+.queryTo {
+    max-width: 200px;
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    padding: 10px;
+    z-index: 100;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.leaflet-top .leaflet-control {
+    margin-top: 300px;
+
+}
+
+.block {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 8px;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.8s;
+}
+
+button:hover {
+    background: whitesmoke;
+    color: red;
+}
